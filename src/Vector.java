@@ -27,5 +27,10 @@ public class Vector {
         this.vec_y = this.point2_y - this.point1_y;
     }
 
-
+    @Override
+    public String toString() {
+        return "Vector:\n" +
+                "x=" + vec_x +
+                "\ny=" + vec_y;
+    }
 }
